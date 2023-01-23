@@ -8,7 +8,7 @@ const up = arr.map((el) => {
   if (el.length > 5) {
     return el.toUpperCase();
   } else {
-    return "the animal name has less than 5 letters";
+    return `${el} has less than 5 letters`;
   }
 });
 

@@ -7,9 +7,9 @@ const arr = ["dog", "bird", "elephant", "cat", "unicorn", "dragon", "hippogriff"
 const up = arr.map((el) => {
   if (el.length > 5) {
     return el.toUpperCase();
-  } else {
-    return `${el} has less than 5 characters`;
   }
+  return el;
 });
 
 console.log(up);
+console.log(arr);

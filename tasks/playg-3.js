@@ -2,7 +2,9 @@
 
 const arr = [2, 3, 5, 10, 12, 27];
 
-const square = arr.map((el) => {
-  const squared = Math.pow(el, 2);
-  return squared;
-});
+// const square = arr.map((el) => {
+//   const squared = Math.pow(el, 2);
+//   return squared;
+// });
+
+const square = arr.map((el) => el * el);

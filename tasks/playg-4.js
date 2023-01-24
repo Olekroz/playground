@@ -5,3 +5,5 @@ const arr = [3, 78, 44, 21, 16, 8, 50, 90, 482, 12, 38];
 const less = arr.filter((el) => {
   return el > 20;
 });
+
+console.log(less);

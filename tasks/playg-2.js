@@ -2,6 +2,19 @@
 
 const arr = ["dog", "bird", "elephant", "cat", "unicorn", "dragon", "hippogriff"];
 
-const print = arr.forEach((el) => {
-  console.log(el);
-});
+// arr.forEach((el) => {
+//   console.log(el);
+// });
+
+// const rev = arr.reverse();
+// console.log(rev);
+// console.log(arr);
+
+const copy = [];
+
+for (let i = arr.length - 1; i >= 0; i--) {
+  copy.push(arr[i]);
+}
+
+console.log(copy);
+console.log(arr);

@@ -1,9 +1,9 @@
 // Convert an array of strings into a single string using the join() method with the delimiter - and print the result
 
-const text = ["The", "cat", "likes", "to", "sleep"];
+const example = ["The", "cat", "likes", "to", "sleep"];
 
 const oneText = (text) => {
-  return text.join(" and ");
+  return text.join(" ");
 };
 
-console.log(text);
+console.log(oneText(example));
